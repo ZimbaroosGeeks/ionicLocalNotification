@@ -1,0 +1,16 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "ionicLocalNotification",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "LocalNotifications": {
+      "sound": "goes_without_saying_608.wav"
+    },
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

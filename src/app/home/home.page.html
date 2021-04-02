@@ -1,0 +1,18 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Ionic Local Notification
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content [fullscreen]="true">
+  <ion-button (click)="scheduleBasic()" expand="block" fill="clear"> Schedule Basic</ion-button>
+  <ion-button (click)="repeatNotification()" expand="block" fill="clear"> Schedule Repeat without color</ion-button>
+  <ion-button (click)="scheduleAdvanced()" expand="block" fill="clear"> Schedule Advanced</ion-button>
+
+  
+</ion-content>
+
